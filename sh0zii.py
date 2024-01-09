@@ -182,8 +182,8 @@ logo=("""\033[1;97m
 \033[1;93m--------------------------------------------------
 \033[1;37m[-] OWNER     :\033[1;32m  SHAMROZ TRICKER
 \033[1;37m[-] GITHUB    :\033[1;32m  SH4MR0Z-TR1CK3R
-\033[1;37m[-] VERSION   :\033[1;32m        (1.2)
-\033[1;37m[-] STATUS    :\033[1;32m        (FREE)
+\033[1;37m[-] VERSION   :\033[1;32m       (1.3)
+\033[1;37m[-] STATUS    :\033[1;32m       (FREE)
    👉😈 Koi Hajat Ho To Milnay Chalay Atay Hain.......
 	 Yaaro Nay Mizaar Samaj Rakha Hai🙂💔
 --------------------------------------------------""")
